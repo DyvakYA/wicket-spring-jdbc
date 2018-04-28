@@ -1,0 +1,18 @@
+<html xmlns:wicket="http://wicket.apache.org/">
+<body>
+
+<div wicket:id="feedback"></div>
+
+
+    <form id="login_form" wicket:id="loginForm">
+        Login:
+        <input type="text" wicket:id="login" id="login_form_email" placeholder="Login:" value="Login" name="Login"/><br />
+        Password:
+        <input type="password" wicket:id="password" id="login_form_password" placeholder="Password" value="Password" name="Password"/><br />
+
+        <input wicket:message="value:Login" type="submit" value="Login" />
+    </form>
+
+
+</body>
+</html>

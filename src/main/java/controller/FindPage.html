@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Find</h1>
+<div wicket:id="feedback"></div>
+<form id="find_form" wicket:id="find_form">
+    <div wicket:id="container">
+            <span wicket:id="listview">
+        item: <span wicket:id="label">label</span><br/>
+    </span>
+    </div>
+    <input wicket:id="query" type="text" placeholder="find" name="Field for find "/><br/>
+    <input wicket:id="find" type="submit" value="Find"/><br/>
+    <hr>
+    <div>
+        <input wicket:id="back" type="submit" value="Back"/>
+        <input wicket:id="submit" type="submit" value="Go to base"/>
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<wicket:panel xmlns:wicket="http://www.w3.org/1999/xhtml" xmlns:wicked="http://www.w3.org/1999/xhtml">
+        <form wicket:id="delete_form">
+            <table border="1px">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Second Name</th>
+                    <th>Age</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr wicket:id="listview">
+                    <td wicket:id="userId"></td>
+                    <td wicket:id="firstname"></td>
+                    <td wicket:id="secondname"></td>
+                    <td wicket:id="age"></td>
+                </tr>
+                </tbody>
+            </table>
+            Id: <input wicket:id="id" type="text" size="5">
+            <input wicket:id="delete" type="submit" value="Delete"/>
+        </form>
+
+</wicket:panel>
